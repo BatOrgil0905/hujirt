@@ -1,0 +1,458 @@
+/*
+Template Name: Hujirt Spa Resort
+Version: 2.0.7
+Author: BatOrgil.B
+Description: Hujirt Website
+*/
+*{
+	font-family: 'PT Sans', sans-serif;
+}
+a{
+    margin: 5px 10px 0 10px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+    transition: all .5s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.sub-menu-toggle{
+	display: none;
+}
+/* Header*/
+
+#menu-item-245{
+	position: relative;
+	
+}
+
+.sub-menu{
+	position: absolute;
+	border-top: 3px solid #7dd3fc;
+	top: 40px;
+	left: 0px;
+	width: 200px;
+	display: none;
+	transition: .3s;
+	line-height: 20px;
+	z-index: 100;
+}
+@media screen and (min-width: 500px){
+	
+	#menu-items-245{
+		width: fit-content;
+	}
+}
+
+#menu-item-245:hover .sub-menu{
+	display: block;
+	transition: all .5s ease;
+}
+#menu-item-431{
+	border: 1px solid transparent;
+	background-color: rgb(224 242 254);
+	padding: 2px;
+	transition: .3s;
+}
+#menu-item-431:hover{
+	background-color: rgb(186 230 253);
+	padding: 0 4px;
+}
+@media screen and (min-width: 768px){
+	#menu-item-431{
+		width: fit-content;
+	}
+}
+.sub-menu li{
+	border-bottom: 1px solid lightgray;
+	background-color: rgb(240 249 255);
+	transition: .5s;
+}
+.sub-menu li:hover{
+	background-color: white;
+}
+/* ---About-us Map section--- */
+.home-title {
+    margin-top: 40px;
+    font-size: 36px;
+	/*font-family: 'Fira Sans', sans-serif;*/
+}
+
+/* .home-map {
+    height: 655px;
+    background: url("assets/map.png") center no-repeat;
+} */
+
+.home-map .item1 {
+    float: left;
+    margin: 220px 0 0 250px;
+}
+.home-map .item2 {
+    float: right;
+    margin: 191px 0 0 231px;
+}
+
+.home-map .item {
+    width: 274px;
+    /*font-family: "Open Sans";*/
+}
+
+.home-map .item h3 {
+    text-transform: none !important;
+    font-size: 24px;
+    /*font-family: 'Fira Sans', sans-serif;*/
+}
+
+.home-map .item .text {
+    padding: 10px 15px;
+    background-color: rgba(0,146,203,0.1);
+}
+
+.home-map .item .text p {
+    color: #5e5e5e;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: start;
+    font-weight: 400;
+}
+
+/*About Us*/
+/* .container{
+    margin: 0 6%;
+    background-color: #fff;
+	padding: 0 2%;
+} */
+.main-title{
+    padding: 1px 0 0 1rem;
+    font-size: 25px;
+	font-family: 'PT Sans', sans-serif;
+}
+.title{
+    text-align: center;
+	font-family: consolas;
+    color: rgb(3, 95, 95);
+}
+.info1{
+    padding: 10px;
+    font-size: 18px;
+    /*font-family: 'Fira Sans', sans-serif;*/
+    text-align: start;
+}
+
+/* ---Resort--- */
+.major-title{
+    text-align: center;
+    font-size: 28px;
+    color: rgb(0, 78, 78);
+    text-transform: uppercase;
+    line-height: 34px;
+    font-family: 'PT Sans', sans-serif;
+}
+/* ContactForm7 */
+.wpcf7{
+    opacity: 1;
+    padding: 10px;
+    background-color: transparent;
+}
+.wpcf7 label{
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    opacity: 1;
+}
+.wpcf7 input{
+    width: 100%;
+    margin: 10px 0;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: .9s;
+}
+.wpcf7 input:hover{
+    border: white;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.wpcf7 textarea{
+    margin: 10px 0;
+    height: 100px;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: .9s
+}
+.wpcf7 textarea:hover{
+    border: white;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.wpcf7 .wpcf7-select{
+    margin: 10px 0;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: .9s
+}
+.wpcf7 .wpcf7-select:hover{
+    border-bottom: 2px solid #000;
+}
+.wpcf7 .wpcf7-submit{
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 20px;
+	color: white;
+    transition: .9s;
+    border-radius: 1rem;
+}
+.wpcf7 .wpcf7-submit:hover{
+    background:rgb(255, 255, 255);
+	color: black;
+    border: 2px solid transparent;
+}
+/* ---Feedback--- */
+
+
+#feed{
+    border: 1px solid rgb(175, 175, 175);
+    width: 95%;
+    transition: all .3s ease;
+}
+#feed:hover{
+    border: 1px solid rgb(0, 78, 78);
+}
+#feed:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+#text{
+    width: max-content;
+    border: 1px solid rgb(175, 175, 175);
+    transition: all .3s ease;
+}
+#text:hover{
+    border: 1px solid rgb(0, 78, 78);
+}
+#text:focus{
+    background-color: #fff;
+}
+#form-submit{
+    width: fit-content;
+    padding: 0px 2rem;
+	color:  rgb(0, 78, 78);
+    border-radius: none !important;
+    margin-right: 11rem;
+    margin-left: 1rem;
+    border: 1px solid rgb(0, 78, 78);
+}
+@media(max-width: 769px){
+    #feed{
+        width: 100%;
+    }
+    #text{
+        width: 100%;
+    }
+    #form-submit{
+        margin-top: 10%;
+        padding: 0px;
+        width: 100%;
+        border-radius: none !important;
+        margin-right: 1rem;
+        margin-left: 0;
+    }
+}
+/* ---Overlaying Rashaan--- */
+#rashaan::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .7;
+    z-index: 0;
+}
+#rashaan{
+    position: relative;
+}
+#rashaan > * {
+    z-index: 10;
+    position: relative;
+}
+/* ---Overlaying Red--- */
+#red::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, transparent rgb(130, 206, 236));
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    z-index: 10;
+}
+#red{
+    position: relative;
+}
+#red > * {
+    z-index: 20;
+    position: relative;
+}
+/* ---Overlaying Countdowner--- */
+#countdown::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    background-image: linear-gradient(to right, rgb(130, 206, 236), lightgray);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .7;
+    z-index: 0;
+}
+#countdown{
+    position: relative;
+}
+#countdown > * {
+    z-index: 10;
+    position: relative;
+}
+/* ---Overlaying See More--- */
+#resort::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(40, 40, 40), transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .8;
+    z-index: 0;
+}
+#resort{
+    position: relative;
+}
+#resort > * {
+    z-index: 10;
+    position: relative;
+}
+/* ---Overlaying Contact Form--- */
+#typing::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, lightgray, rgb(130, 206, 236));
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .8;
+    z-index: 0;
+}
+#typing{
+    position: relative;
+}
+#typing > * {
+    z-index: 10;
+    position: relative;
+}
+/* ---Emch--- */
+#emch-container{
+    position: relative;
+}
+#emch-zurag{
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+#emch-middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+#emch-container:hover #emch-zurag{
+    opacity: 0.6;
+}
+#emch-container:hover #emch-middle{
+    transform: translate(-125px,-30px);
+    opacity: 1;
+}
+#emch-text{
+    background-color:  rgb(130, 206, 236);
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    padding: 1rem 2rem;
+    transition: all .5s ease;
+	cursor: default;
+}
+#emch-text:hover{
+    background-color: rgb(130, 180, 240);
+}
+
+/*Gallery*/
+.boxGallery{
+	position: relative;
+	width: max-content;
+	height: max-content;
+	margin: 10px 5px !important;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.boxGallery .imgBox{
+	position: relative;
+	overflow: hidden;
+}
+.boxGallery .imgBox img{
+	width: 240px;
+	height: 280px;
+	object-fit: cover;
+	transition: transform 2s;
+}
+.boxGallery:hover .imgBox img{
+	transform: scale(1.2);
+}
+.boxGallery .details{
+	position: absolute;
+	height: auto;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,.4);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+.boxGallery:hover .details{
+	
+	transform: scaleY(1);
+}
+.boxGallery .details .content{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+}
+.boxGallery .details .content h2{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: skyblue;
+}
+/* --Gallery 2.0-- */
+.main-container{
+	position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
